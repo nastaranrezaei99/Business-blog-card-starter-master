@@ -36,6 +36,16 @@
         color: rgb(55, 65, 81);
         text-decoration: underline;
       }
+      #image{
+        display: flex;
+        flex-direction: column;
+        gap: -1px;
+      }
+      #image1{
+        border-radius: 20px;
+        display : flex;
+        justify-content: center;
+      }
     </style>
   </head>
   <body>
@@ -47,8 +57,9 @@
         >devChallenges.io</a
       >.
     </div>
-
-    <img src="./resources/hero-image-1.jpg" id="image1">
-    <img src="./resources/white-overlay.svg" id="image2">
+    <div id="image">
+      <img src="./resources/hero-image-1.jpg" id="image1">
+      <img src="./resources/white-overlay.svg" id="image">
+    </div>
   </body>
 </html>

@@ -24,7 +24,7 @@
 
       @font-face {
         font-family: "lato";
-        src: url("./fontes/2/Lato/Lato-Bold.ttf");
+        src: url("./fontes/2/Lato/Lato-Thin.ttf");
         font-weight: 100 900;
       }
 
@@ -51,6 +51,7 @@
         text-decoration: underline;
       }
       #image{
+
         position: relative;
         display: flex;
         flex-direction: column;
@@ -60,6 +61,19 @@
         width: 600px;
         margin-left: auto;
         margin-right: auto;
+
+      }
+      #bigbox{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FFFFFF;
       }
       #image1{
         border-radius: 10px;
@@ -102,15 +116,18 @@
         >devChallenges.io</a
       >.
     </div>
-    <div id="image">
-      <img src="./resources/hero-image-1.jpg" id="image1" width="600px" height="500px">
-      <img src="./resources/white-overlay.svg" id="image2">
-    </div>
+    <main id="bigbox">
+      <section id="image">
+        <img src="./resources/hero-image-1.jpg" id="image1" width="600px" height="500px">
+        <img src="./resources/white-overlay.svg" id="image2">
+      </section>
 
-    <div id="box2">
-      <h1 id="header1">Perfect solution for small business</h1>
-      <p id="p1">Small businesses need to generate leads to grow. You can use tools like Ringy.</p>
-    </div>
+      <div id="box2">
+        <h1 id="header1">Perfect solution for small business</h1>
+        <p id="p1">Small businesses need to generate leads to grow. You can use tools like Ringy.</p>
+      </div>
+
+    </main>
 
   </body>
 </html>

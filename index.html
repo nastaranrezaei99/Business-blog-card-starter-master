@@ -39,12 +39,20 @@
       #image{
         display: flex;
         flex-direction: column;
-        gap: -1px;
+        gap: -5px;
       }
       #image1{
         border-radius: 20px;
         display : flex;
         justify-content: center;
+      }
+      #image2{
+        display : flex;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -1px;
       }
     </style>
   </head>
@@ -58,8 +66,8 @@
       >.
     </div>
     <div id="image">
-      <img src="./resources/hero-image-1.jpg" id="image1">
-      <img src="./resources/white-overlay.svg" id="image">
+      <img src="./resources/hero-image-1.jpg" id="image1" width="200px" height="200px">
+      <img src="./resources/white-overlay.svg" id="image2">
     </div>
   </body>
 </html>
